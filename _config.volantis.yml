@@ -1,4 +1,7 @@
-############################### Volantis ###############################
+###############################
+
+
+###############################
 # use_cdn: /source/js/* 中的JS文件(JS Only)使用jsdelivr的min版本加速
 # 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/*.min.js 的CDN压缩版本(min.js)，注意版本号对应关系！！可以通过修改以下配置项覆盖
 # 开发者注意 use_cdn 设置为 false
@@ -299,64 +302,16 @@ comments:
     imageHosting: https://7bu.top/api/upload # 图床api（默认使用去不图床）
     # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder uploadImage] 选项
     meta: [nick,link] # waline comment header info
-    requiredFields: [nick]
+    requiredMeta: ['nick', 'mail']
+    login: force
     serverURL: https://fldpmpang.vercel.app # Waline 的服务端地址（必填） 测试用地址: https://waline-ruddy.vercel.app
     avatar: robohash # gravatar style https://waline.js.org/client/basic.html#avatar
     pageSize: 15 # 评论每页显示数量
     lang: zh-CN 
-    emojiCDN: 'https://valinecdn.bili33.top/'
-    emojiMaps: {
-"bilibilitv2": "bilibilitv/[tv_doge].png",
-"bilibilitv3": "bilibilitv/[tv_亲亲].png",
-"bilibilitv4": "bilibilitv/[tv_偷笑].png",
-"bilibilitv5": "bilibilitv/[tv_再见].png",
-"bilibilitv6": "bilibilitv/[tv_冷漠].png",
-"bilibilitv7": "bilibilitv/[tv_发怒].png",
-"bilibilitv8": "bilibilitv/[tv_发财].png",
-"bilibilitv9": "bilibilitv/[tv_可爱].png",
-"bilibilitv10": "bilibilitv/[tv_吐血].png",
-"bilibilitv11": "bilibilitv/[tv_呆].png",
-"bilibilitv12": "bilibilitv/[tv_呕吐].png",
-"bilibilitv13": "bilibilitv/[tv_困].png",
-"bilibilitv14": "bilibilitv/[tv_坏笑].png",
-"bilibilitv15": "bilibilitv/[tv_大佬].png",
-"bilibilitv16": "bilibilitv/[tv_大哭].png",
-"bilibilitv17": "bilibilitv/[tv_委屈].png",
-"bilibilitv18": "bilibilitv/[tv_害羞].png",
-"bilibilitv19": "bilibilitv/[tv_尴尬].png",
-"bilibilitv20": "bilibilitv/[tv_微笑].png",
-"bilibilitv21": "bilibilitv/[tv_思考].png",
-"bilibilitv22": "bilibilitv/[tv_惊吓].png",
-"bilibilitv23": "bilibilitv/[tv_打脸].png",
-"bilibilitv24": "bilibilitv/[tv_抓狂].png",
-"bilibilitv25": "bilibilitv/[tv_抠鼻].png",
-"bilibilitv26": "bilibilitv/[tv_斜眼笑].png",
-"bilibilitv27": "bilibilitv/[tv_无奈].png",
-"bilibilitv28": "bilibilitv/[tv_晕].png",
-"bilibilitv29": "bilibilitv/[tv_流汗].png",
-"bilibilitv30": "bilibilitv/[tv_流泪].png",
-"bilibilitv31": "bilibilitv/[tv_流鼻血].png",
-"bilibilitv32": "bilibilitv/[tv_点赞].png",
-"bilibilitv33": "bilibilitv/[tv_生气].png",
-"bilibilitv34": "bilibilitv/[tv_生病].png",
-"bilibilitv35": "bilibilitv/[tv_疑问].png",
-"bilibilitv36": "bilibilitv/[tv_白眼].png",
-"bilibilitv37": "bilibilitv/[tv_皱眉].png",
-"bilibilitv38": "bilibilitv/[tv_目瞪口呆].png",
-"bilibilitv39": "bilibilitv/[tv_睡着].png",
-"bilibilitv40": "bilibilitv/[tv_笑哭].png",
-"bilibilitv41": "bilibilitv/[tv_腼腆].png",
-"bilibilitv42": "bilibilitv/[tv_色].png",
-"bilibilitv43": "bilibilitv/[tv_调侃].png",
-"bilibilitv44": "bilibilitv/[tv_调皮].png",
-"bilibilitv45": "bilibilitv/[tv_鄙视].png",
-"bilibilitv46": "bilibilitv/[tv_闭嘴].png",
-"bilibilitv47": "bilibilitv/[tv_难过].png",
-"bilibilitv48": "bilibilitv/[tv_馋].png",
-"bilibilitv49": "bilibilitv/[tv_鬼脸].png",
-"bilibilitv50": "bilibilitv/[tv_黑人问号].png",
-"bilibilitv51": "bilibilitv/[tv_鼓掌].png"
-}
+    emoji: [
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+    ]
 
 ############################### Comments ############################### > end
 
