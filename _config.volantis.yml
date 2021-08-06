@@ -65,12 +65,16 @@ cover:
   features:
     - name: 编程
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
-      url: /categories/算法与数据结构/
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/2708.svg
+      url: /categories/编程语言/
     - name: 嵌入式
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
       url: /categories/电子电路设计/
+    - name: 算法
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/2712.svg
+      url: /categories/算法与数据结构/
     - name: Linux 
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
@@ -340,7 +344,7 @@ sidebar:
         - icon: fab fa-github
           url: https://github.com/FLDPMpang
         - icon: fab fa-telegram
-          url: /
+          url: https://t.me/FLDPMpang
         - icon: fab fa-youtube
           url: https://space.bilibili.com/288308942
     # ---------------------------------------
@@ -372,8 +376,8 @@ sidebar:
         icon: fas fa-tags
         title: 热门标签
         url: /blog/tags/
-      min_font: 14
-      max_font: 24
+      min_font: 16
+      max_font: 30
       color: true
       start_color: '#999'
       end_color: '#555'

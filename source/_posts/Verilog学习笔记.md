@@ -1,5 +1,5 @@
 ---
-title: FPGA学习笔记(一)-Verilog HDL的基本语法
+title: FPGA学习笔记-VerilogHDL的基本语法
 tags:
   - FPGA
   - Verilog
@@ -8,8 +8,8 @@ abbrlink: 742
 date: 2020-12-15 10:54:36
 ---
 
-Verilog HDL 是一种用于数字逻辑电路设计的语言。它与之前学过的高级编程语言大不一样,Verilog HDL 行为描述语言作为一种结构化和过程性的语言
-<br />
+Verilog HDL 是一种用于数字逻辑电路设计的语言
+它与之前学过的高级编程语言大不一样,Verilog HDL 行为描述语言作为一种结构化和过程性的语言
 
 # 模块结构
 
@@ -289,7 +289,3 @@ for (pre_do;expressions;re_do)
   end
 
 ```
-
-# 时序控制
-
-## 时延控制
