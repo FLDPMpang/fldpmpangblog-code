@@ -10,4 +10,4 @@ bottom_meta: false
 - Major: Electrical Engineering
 - Broswers: Vivaldi, Firefox Developer Edition
 - Editors: Neovim, VSCode
-- Platforms: Archlinux(i3wm), windows10 , MIUI
+- Platforms: Archlinux(gnome40), windows10&11 , MIUI
