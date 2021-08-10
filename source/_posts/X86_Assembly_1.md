@@ -111,4 +111,4 @@ dw 0xaa55
 - 控制字符
   控制字符格式: |K|R|G|B|I|R|G|B| (高位背景色,低位前景色)
 
-![2021-08-10 12-30-32 的屏幕截图](https://cdn.jsdelivr.net/gh/FLDPMpang/img_host@main/20210523/2021-08-10 12-30-32 的屏幕截图.7gtmb0nbzt0.png)
+![xxx](https://cdn.jsdelivr.net/gh/FLDPMpang/img_host@main/20210523/xxx.56z43ipca880.png)
