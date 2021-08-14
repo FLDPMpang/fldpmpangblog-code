@@ -14,28 +14,8 @@
 
 ## 网站地址 https://www.fldpmpang.website
 
-<br>
-
-## 网站源码 https://github.com/FLDPMpang/fldpmpangblog-code
-
-## 网站架构
-
 基于[Hexo](https://hexo.io/zh-cn/)博客框架,使用[volantis](https://github.com/volantis-x/hexo-theme-volantis)博客主题搭建
 托管于[vercel](https://vercel.com)
-
-## 更新记录
-
-- 全站公共资源使用 CDN,加入了首页每日一言
-- 全站背景图使用 webp 格式
-- 使用短链接
-
-## 联系我
-
-邮箱: [frozenpang@gmail.com](mailto:frozenpang@gmail.com)
-
-Telegram: [FLDPMpang](https://t.me/FLDPMpang)
-
-BiliBili: [FL 冰封龙虾](https://space.bilibili.com/288308942)
 
 <br />
 
