@@ -307,14 +307,14 @@ comments:
     # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder uploadImage] 选项
     meta: [nick,link] # waline comment header info
     requiredMeta: ['nick', 'mail']
-    login: force
-    serverURL: https://fldpmpang.vercel.app # Waline 的服务端地址（必填） 测试用地址: https://waline-ruddy.vercel.app
+    login: enable
+    serverURL: https://fldpmpangblog-comment.vercel.app # Waline 的服务端地址（必填） 测试用地址: https://waline-ruddy.vercel.app
     avatar: robohash # gravatar style https://waline.js.org/client/basic.html#avatar
     pageSize: 15 # 评论每页显示数量
     lang: zh-CN 
     emoji: [
-    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
     'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
     ]
 
 ############################### Comments ############################### > end
